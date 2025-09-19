@@ -1,0 +1,61 @@
+---
+title: "simple quarto website"
+bibliography: reference.bib
+format:
+    html:
+        toc: true
+        toc-title: This is the table of contents
+
+---
+# Table of contents link 1
+
+<html>
+    <h3> This is the first header. </h3>
+    <body> This is the first body paragraph.</body>
+    <h3> This is the second header.  </h3>
+    <body> This is the second body paragraph.</body>
+    <h3> This is the third header. </h3>
+    <body> This is the third body paragraph. Below is a markdown table: </body>
+here| is
+-----|-----:
+my|markdown
+table|=D
+
+</html>
+
+# Table of contents link 2
+
+<html>
+    <h3> Here is a function in latex format: </h3>
+    <body> $\frac{n!}{n-r}$ This is an inline function. </body>
+    <h3> Here's another latex function, not in-line. </h3>
+    <body> $$e=mc**2$$ </body>
+    <h3>Here's an example of a footnote:</h3>
+<div>
+<p markdown = "1">
+Here's a sentence with a footnote.[^1]
+</div>
+<h3> Here's a quote: </h3>
+> The national anthem:
+</html>
+
+<html>
+{{< video https://www.youtube.com/watch?v=vPKp29Luryc&list=RDvPKp29Luryc&start_radio=1 >}}
+<body>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Haigerloch_-_Altstadt_-_Ansicht_aus_S%C3%BCden_vom_R%C3%B6merturm_%282%29.jpg/500px-Haigerloch_-_Altstadt_-_Ansicht_aus_S%C3%BCden_vom_R%C3%B6merturm_%282%29.jpg" style = "padding-bottom: 15px">
+
+<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Macropus_giganteus_-_Brunkerville.jpg/640px-Macropus_giganteus_-_Brunkerville.jpg" >
+</body>
+</html>
+
+```{mermaid}
+sequenceDiagram
+    participant Cat
+    participant Dog
+    participant Human
+    Cat ->> Human: "Meow"
+```
+
+Cookies [see @chernenkova2020improving]
+
+[^1]: And here's the associated footnote

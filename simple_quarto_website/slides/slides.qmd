@@ -1,0 +1,29 @@
+---
+title: "reveal.js presentation"
+format:
+    revealjs:
+        bibliography: ../reference.bib     
+---
+
+## Slide 1
+
+This is a sample presentation.
+
+<img src= "../images/doggy.png">
+<img src= "../images/kitty.png">
+
+## Slide 2
+
+```{python}
+#| echo: true
+#| code-fold: true
+import matplotlib.pyplot as plt
+import numpy as np
+np.zeros((3, 4))
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+```
+
+## Slide 3
+- On various baked goods [see @manley2001biscuit]
+References:

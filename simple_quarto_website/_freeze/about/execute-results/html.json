@@ -1,0 +1,12 @@
+{
+  "hash": "807b679ce295f7910d0d1805e6ea8d6a",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"About\"\ncode-fold: true\n---\n\n<h1>These headings</h1>\n<h2>Get smaller</h2>\n<h3>As you go down</h3>\n\n::: {#00e93493 .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.zeros((3, 4))\nplt.plot([1, 2, 3], [4, 5, 6])\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](about_files/figure-html/cell-2-output-1.png){width=579 height=411}\n:::\n:::\n\n\n",
+    "supporting": [
+      "about_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

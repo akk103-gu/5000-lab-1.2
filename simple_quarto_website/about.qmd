@@ -1,0 +1,14 @@
+---
+title: "About"
+code-fold: true
+---
+<h1>These headings</h1>
+<h2>Get smaller</h2>
+<h3>As you go down</h3>
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+np.zeros((3, 4))
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+```

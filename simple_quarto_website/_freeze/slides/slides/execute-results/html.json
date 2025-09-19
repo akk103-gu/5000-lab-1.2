@@ -1,0 +1,12 @@
+{
+  "hash": "ff94ca10b0e74f7236ca83ee813607aa",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"reveal.js presentation\"\nformat:\n    revealjs:\n        bibliography: ../reference.bib     \n---\n\n## Slide 1\n\nThis is a sample presentation.\n\n<img src= \"../images/doggy.png\">\n<img src= \"../images/kitty.png\">\n\n## Slide 2\n\n::: {#0d2c8dfe .cell execution_count=1}\n``` {.python .cell-code code-fold=\"true\"}\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.zeros((3, 4))\nplt.plot([1, 2, 3], [4, 5, 6])\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](slides_files/figure-revealjs/cell-2-output-1.png){width=802 height=411}\n:::\n:::\n\n\n## Slide 3\n- On various baked goods [see @manley2001biscuit]\nReferences:\n\n",
+    "supporting": [
+      "slides_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

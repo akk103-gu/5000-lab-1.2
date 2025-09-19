@@ -1,0 +1,44 @@
+yorkieunix@Annietop:~$
+yorkieunix@Annietop:~$ git clone https://github.com/akk103-gu/5000-lab-1.2.git
+Cloning into '5000-lab-1.2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+yorkieunix@Annietop:~$ ls
+5000-lab-1.2
+yorkieunix@Annietop:~$ cd 5000-lab-1.2
+yorkieunix@Annietop:~/5000-lab-1.2$ rm styles.css
+rm: cannot remove 'styles.css': No such file or directory
+yorkieunix@Annietop:~/5000-lab-1.2$ ls
+README.md  simple_quarto_website
+yorkieunix@Annietop:~/5000-lab-1.2$ cd simple_quarto_website
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$ rm styles.css
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$ mkdir images
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$ mkdir slides
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$ quarto convert about.qmd
+Converted to about.ipynb
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$ ls
+_quarto.yml  about.ipynb  about.qmd  images  index.qmd  quarto-1.8.24-linux-amd64.deb  reference.bib  slides
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$ more reference.bib
+# Citation 1
+@book{manley2001biscuit,
+  title={Biscuit, cracker and cookie recipes for the food industry},
+  author={Manley, Duncan},
+  year={2001},
+  publisher={Elsevier}
+}
+
+# Citation 2
+@article{chernenkova2020improving,
+  title={Improving sugar cookie recipe with functional properties},
+  author={Chernenkova, Alfiya and Leonova, Svetlana and Kuznetsova, Elena and Rumyantseva, Valentina and Kirillova, Taty
+ana and Chernykh, Valeriy and Chernenkov, Evgeniy and Kaluzhina, Olesya},
+  journal={Agriculturae Conspectus Scientificus},
+  volume={85},
+  number={2},
+  pages={159--174},
+  year={2020},
+  publisher={Sveu{\v{c}}ili{\v{s}}te u Zagrebu Agronomski fakultet Zagreb}
+}
+yorkieunix@Annietop:~/5000-lab-1.2/simple_quarto_website$

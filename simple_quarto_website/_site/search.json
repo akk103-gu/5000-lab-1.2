@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple quarto website",
+    "section": "",
+    "text": "This is the first body paragraph.\n\n\n\nThis is the second body paragraph.\n\n\n\nThis is the third body paragraph. Below is a markdown table:\n\n\n\n\nhere\nis\n\n\n\n\nmy\nmarkdown\n\n\ntable\n=D"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple quarto website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAnd here’s the associated footnote↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1",
+    "href": "slides/slides.html#slide-1",
+    "title": "reveal.js presentation",
+    "section": "Slide 1",
+    "text": "Slide 1\nThis is a sample presentation."
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "reveal.js presentation",
+    "section": "Slide 2",
+    "text": "Slide 2\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.zeros((3, 4))\nplt.plot([1, 2, 3], [4, 5, 6])\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#slide-3",
+    "href": "slides/slides.html#slide-3",
+    "title": "reveal.js presentation",
+    "section": "Slide 3",
+    "text": "Slide 3\n\nOn various baked goods (see Manley 2001) References:\n\n\n\n\n\nManley, Duncan. 2001. Biscuit, Cracker and Cookie Recipes for the Food Industry. Elsevier."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These headings\n\n\nGet smaller\n\n\nAs you go down\n\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.zeros((3, 4))\nplt.plot([1, 2, 3], [4, 5, 6])\nplt.show()"
+  }
+]
